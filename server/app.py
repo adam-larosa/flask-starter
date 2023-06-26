@@ -1,5 +1,6 @@
 from config import app
 
+from models import Cat
 
 @app.route( '/' )
 def rootroute():
